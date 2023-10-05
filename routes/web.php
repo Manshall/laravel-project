@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\NewsController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,5 +31,6 @@ Route::get('login', function(){
     return view('login');
 });
 
+Route::get('/register', [RegisterController::class, 'index']);
 Route::get('/show', [NewsController::class, 'show']);
 Route::get('/create', [NewsController::class, 'create']);
