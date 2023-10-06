@@ -15,20 +15,20 @@
         <div class="card-body container align-items-center">
           <h5 class="card-title">Daftar</h5>
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="username" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            <input type="text" class="form-control" placeholder="Ucsername" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
           </div>
           
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
           </div>
 
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="password" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-          </div>  
+          <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword1">
+          </div>
 
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="confirm password" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
-          </div>          
+          <div class="mb-3">
+            <input type="password" class="form-control" placeholder="Confirm Password" id="exampleInputPassword1">
+          </div>         
           <a href="#" class="btn btn-primary">Daftar</a>
         </div>
       </div>
